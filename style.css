@@ -1,0 +1,132 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 11px;
+   color:hsl(240, 6%, 50%);
+   margin-top: -20px;
+   
+   
+}
+
+h5{
+    font-size: 12px;
+    color: hsl(240, 6%, 50%);
+    
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 4px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 20px;
+    width: 65%;
+    padding-right: 50px;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+   z-index: -1;
+   padding-bottom: 0;
+    margin-top: 170px;
+
+    
+    
+    
+}
+
+hr{
+    width: 100%;
+    position: relative;
+    right: 25px;
+    color: hsl(240, 7%, 92%);
+    height: 0px;
+    border: none;
+    border-top: 1px solid;
+}
+
+.questions{
+    margin-left: 100px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+.woman{
+   margin-left: -50px;
+   margin-top: 20px;
+   margin-bottom: 40px;
+   z-index: 1;
+   position: relative;
+   
+  
+   
+}
+
+
+.atbox{
+  
+    margin-left: -84px;
+    margin-top: -270px;
+   z-index: 2;
+   position: absolute;
+}
+
+.lines{
+    margin-top: -600px;
+    margin-left: -250px;
+    z-index: -1;
+    margin-bottom: -20px;
+}
+
+.accordion{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: hsl(240, 6%, 50%);
+    padding: 10px;
+   margin-left: 450px;
+    margin-top: 0px;
+    position: relative;
+    text-align: right;
+    padding-top: 0;
+    
+    
+    
+    
+}
+
+.active, .accordion{
+color: black;
+}
+
+button, .arrow{
+    margin-top: -400px;
+   position: relative;
+}
+
+@media screen and (max-width:650px) {
+    .woman{
+        margin-top: -180px;
+        margin-left: 20px;
+        width: 100%;
+       
+    }
+
+    .card{
+        overflow: visible;
+        width: 80%;
+        
+    }
+
+    .lines{
+        visibility: hidden;
+       
+    }
+}
